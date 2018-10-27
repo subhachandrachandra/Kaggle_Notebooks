@@ -1,0 +1,73 @@
+batch_size=10000, num_epochs=25 hidden_units=[50, 25, 25]
+MSE (tensorflow): 25.272991 MSE (sklearn): 25.272802
+
+batch_size=10000, num_epochs=5 hidden_units=[50, 25, 25]
+loss = 3286.6545, prediction/mean = 11.283803
+MSE (tensorflow): 25.677088 MSE (sklearn): 25.677313
+
+batch_size=10000, num_epochs=5 hidden_units=[50, 25, 25]
+optimizer='Adam'
+loss = 3532.9119, prediction/mean = 10.627207
+MSE (tensorflow): 27.600981 MSE (sklearn): 27.600975
+
+batch_size=10000, num_epochs=5 hidden_units=[50, 25, 25]
+optimizer='Ftrl'
+loss = 3271.591, prediction/mean = 11.302184
+MSE (tensorflow): 25.559404 MSE (sklearn): 25.559195
+
+batch_size=10000, num_epochs=5 hidden_units=[50, 25, 25]
+optimizer='RMSProp'
+loss = 3468.9253, prediction/mean = 10.81451
+MSE (tensorflow): 27.101084 MSE (sklearn): 27.101200
+
+batch_size=10000, num_epochs=5 hidden_units=[50, 25, 25]
+optimizer='SGD'
+ERROR:tensorflow:Model diverged with loss = NaN
+
+batch_size=10000, num_epochs=5 hidden_units=[100, 50, 50]
+loss = 3263.899, prediction/mean = 11.462657
+MSE (tensorflow): 25.499308 MSE (sklearn): 25.499321
+
+batch_size=10000, num_epochs=5 hidden_units=[1000]
+loss = 3272.0317, prediction/mean = 11.252631
+MSE (tensorflow): 25.562845 MSE (sklearn): 25.562904
+
+batch_size=10000, num_epochs=5 hidden_units=[1000,100]
+loss = 3263.7524, prediction/mean = 11.332705
+MSE (tensorflow): 25.498163 MSE (sklearn): 25.498075
+
+batch_size=10000, num_epochs=5 hidden_units=[1000,100,10]
+loss = 13544.463, prediction/mean = 9.1916895
+MSE (tensorflow): 105.816528 MSE (sklearn): 105.816811
+
+batch_size=10000, num_epochs=10 hidden_units=[1000,100,10]
+loss = 3234.5789, prediction/mean = 11.344145
+MSE (tensorflow): 25.270247 MSE (sklearn): 25.270201
+
+batch_size=10000, num_epochs=5 hidden_units=[100,50,50]
+loss = 3264.5833, prediction/mean = 11.297787
+MSE (tensorflow): 25.504656 MSE (sklearn): 25.504791
+
+batch_size=10000, num_epochs=5 hidden_units=[100,50,50] batch_norm=True
+loss = 3216.1304, prediction/mean = 11.256829
+MSE (tensorflow): 25.126116 MSE (sklearn): 25.126034
+
+batch_size=10000, num_epochs=5 hidden_units=[100,50,50] activation_fn=tf.nn.leaky_relu
+loss = 3272.4722, prediction/mean = 11.322108
+MSE (tensorflow): 25.566288 MSE (sklearn): 25.566267
+
+batch_size=10000, num_epochs=5 hidden_units=[100,50,50] activation_fn=tf.nn.elu
+loss = 3261.947, prediction/mean = 11.2746315
+MSE (tensorflow): 25.484060 MSE (sklearn): 25.483988
+
+batch_size=10000, num_epochs=25 hidden_units=[1000,100,10]
+batch_norm=True
+loss = 3163.7832, prediction/mean = 11.357871
+MSE (tensorflow): 24.717152 MSE (sklearn): 24.717201
+
+
+batch_size=10000, num_epochs=25 hidden_units=[1000,250,60,15]
+batch_norm=True
+loss = 3147.6365, prediction/mean = 11.357779
+MSE (tensorflow): 24.591005 MSE (sklearn): 24.590963
+
